@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Bootcamp Session 02</title>
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- For HTML -->
+    <div id="main">
+      <h1>This is written using HTML</h1>
+    </div>
+
+    <!-- For JavaScript -->
+    <div id="javascript"></div>
+
+    <!-- For React -->
+    <div id="react"></div>
+
+    <script>
+      const root = document.getElementById("javascript");
+      const heading = document.createElement("h1");
+      heading.setAttribute("id", "title");
+
+      heading.innerHTML = "This is written using JavaScript";
+
+      root.appendChild(heading);
+    </script>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
