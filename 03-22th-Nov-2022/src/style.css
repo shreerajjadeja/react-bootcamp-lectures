@@ -1,0 +1,25 @@
+.header { 
+  border-bottom: 4px solid #ccc;
+  width: 80%;
+  margin: 0px auto;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  background: #d3d3d33d;
+}
+
+.header .team-logo{
+  height: 50px;
+  width: 100%;
+}
+
+.search-bar {
+  height: auto;
+  padding: 1.2rem 7rem;
+  border-radius: 40px !important;
+  color: #4a4a4a;
+  border: none;
+  letter-spacing: 0.05rem;
+  background: #d8d6d6ba;
+  outline: 0;
+}
